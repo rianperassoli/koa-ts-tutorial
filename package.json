@@ -36,7 +36,7 @@
   "scripts": {
     "build": "tsc --build",
     "start": "ts-node-dev src/server.ts",
-    "test": "NODE_ENV=test PORT=7788 jest",
+    "test": "set NODE_ENV=test && set PORT=7788 && jest",
     "test:watch": "npm run test -- --watchAll"
   },
   "jest": {
