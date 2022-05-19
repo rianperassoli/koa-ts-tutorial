@@ -1,7 +1,7 @@
 {
   "name": "koa-ts-tutorial",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/server.ts",
   "repository": "git@github.com:rianperassoli/koa-ts-tutorial.git",
   "author": "Rian Perassoli <rian.perassoli@gmail.com>",
   "license": "MIT",
@@ -35,7 +35,7 @@
   },
   "scripts": {
     "build": "tsc --build",
-    "start": "ts-node-dev src/server.js",
+    "start": "ts-node-dev src/server.ts",
     "test": "NODE_ENV=test PORT=7788 jest",
     "test:watch": "npm run test -- --watchAll"
   },
